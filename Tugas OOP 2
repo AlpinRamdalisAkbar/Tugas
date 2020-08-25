@@ -1,0 +1,18 @@
+<?php 
+
+class Kucing{
+	public $nama ="momo";
+	public $jenis;
+	public $gender;
+	
+function nama_kucing(){
+	return "Nama kucingnya adalah ".$this->nama;
+}
+
+} 
+$Kucing = new Kucing();
+
+echo $Kucing->nama_kucing();
+
+
+?>
